@@ -12,7 +12,7 @@ public class Main {
         System.out.println("Welcome to game Hangman!");
         System.out.println("Guess the word> " + hiddenWord);
 
-        int MAX_INCORRECT_GUESSES = 6;      // KONSTANTY PISEME TAKTO
+        int MAX_INCORRECT_GUESSES = 7;      // KONSTANTY PISEME TAKTO
         int incorrectGuesses = 0;
 
         while(incorrectGuesses<MAX_INCORRECT_GUESSES && hiddenWord.contains("_")){
